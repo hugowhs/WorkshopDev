@@ -1,0 +1,69 @@
+// Vamos falar de coisas básicas da programação em JavaScript
+
+/*
+Variáveis ?? 
+
+const mensagem = "Oi, como vai?" // String
+const number = 2.5 // number
+*/
+
+/*
+Funcionalidade, Função
+
+ function log(message) esta realizando uma lófica para imprimir isso no terminal
+
+ function soma(numero1, numero2) {
+    return numero1 + numero2
+}
+
+const somar = soma(10, 20)
+console.log(soma(5, 5))
+console.log(somar) 
+*/
+
+/*
+OBJETO
+
+const xicara = {
+    cor: "branco",
+    tamanho: 10,
+    estaSujo(simNao) {
+        // lógica de programação
+        return simNao
+    }
+}
+*/
+
+/*
+JSON = JavaScript Object Notation
+arquivo criado por $npm init -y
+{
+  (chave: valor)  
+  "name": "html-css-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "informações.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+    "start": "nodemon server.js" // Starta o server.js com o Nodemon que fica monitorando o arquivo (npm i nodemon -y para instalar)
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
+*/
+
+/*
+EXPRESS - é um framework
+npm i express -y para instalar
+*/
+
+/*
+    NunJucks - Permite que a gente use variaveis no html - Template Engine
+
+    
+*/
